@@ -1,0 +1,23 @@
+In this task, you are required to design a RTL-level stack module.
+Please write your code in the provided stack.v file and do not create any additional .v files (as the design is small, only one file is necessary). 
+We have provided an testbed.v for you to verify your design. If there is an error in your design, the terminal will display the input data and the expected golden outputs. (use nWave to debug)
+The released pattern include 200 cases. Ensure your design is correct and avoid hardcoding any answers! You can use nWave to check the waveform!!
+
+Note that the hidden pattern won't be provided in this problem.
+
+Below are some commands provided for your use.
+
+## Running the simulation after you finish your design ##
+
+1. Source the tool license first
+$ source ../license.cshrc
+
+2. Run the public testbench
+$ vcs testbed.v stack.v -full64 -R -debug_access+all +v2k 
+
+## Debugging ##
+$ nWave &
+
+## Clear files generated after simulation (optional) ##
+$ bash clear
+
