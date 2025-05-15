@@ -1,0 +1,26 @@
+In this task, you are required to design a 4-bit full adder using gate-level modeling. 
+Please write your code in the provided FA.v file and do not create any additional .v files (as the design is small, only one file is necessary). 
+We have provided an encrypted testbed.vp for you to verify your design. If there is an error in your design, the terminal will display the input data and the expected golden outputs. (use nWave to debug)
+The public test cases include 6 cases. Ensure your design is correct and avoid hardcoding any answers! You can use nWave to check the waveform!!
+
+The testbed_hidden.vp contains 40 hidden test cases. Errors in this part will not reveal the corresponding inputs and outputs!!! You won't see any waveform in nWave.
+
+Below are some commands provided for your use.
+
+## Running the simulation after you finish your design ##
+
+1. Source the tool license first
+$ source ../license.cshrc
+
+2. Run the public testbench
+$ vcs testbed.v FA.v -full64 -R -debug_access+all +v2k 
+
+3. Run the hidden testbench
+$ vcs testbed_hidden.vp FA.v -full64 -R -debug_access+all +v2k 
+
+## Debugging ##
+$ nWave &
+
+## Clear files generated after simulation (optional) ##
+$ bash clear
+
