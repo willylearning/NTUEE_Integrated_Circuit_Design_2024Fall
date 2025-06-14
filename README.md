@@ -1,4 +1,4 @@
-# NTUEE_Integrated_Circuit_Design_2024Fall
+# NTUEE Integrated Circuit Design 2024 Fall
 ## HW1 - Layout Reading
 Draw the associated sticky diagram and the circuit in transistor level, and describe the function of the circuits for 10 layouts
 
